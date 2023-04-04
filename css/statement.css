@@ -1,0 +1,39 @@
+/* -------------------
+PRIVACY POLICY
+--------------------- */
+
+.accessibilty-statement {
+    margin-top: 3rem;
+}
+
+.accessibilty-statement>p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.commitment-list {
+    margin: 3rem auto;
+}
+
+.list {
+    list-style: inside;
+    margin: 1rem;
+}
+
+.access-header {
+    margin-bottom: 1.6rem;
+}
+
+/* ---------------------
+MEDIA QUERIES
+------------------------ */
+
+@media screen and (max-width: 1024px) {
+    .accessibilty-statement {
+        margin-top: 2rem;
+    }
+
+    .accessibilty-statement {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

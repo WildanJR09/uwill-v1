@@ -1,0 +1,38 @@
+/* -------------------
+PRIVACY POLICY
+--------------------- */
+
+.privacy-policy {
+    margin-top: 3rem;
+    /* background: var(--color-bg2); */
+}
+
+.privacy-policy-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 5rem;
+}
+
+.privacy-policy-left>p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+/* ---------------------
+MEDIA QUERIES
+------------------------ */
+
+@media screen and (max-width: 1024px) {
+    .privacy-policy {
+        margin-top: 2rem;
+    }
+
+    .privacy-policy-container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .privacy-policy {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
